@@ -1,5 +1,6 @@
 :root {
     --color-green:#00a453;
+    --color-airbnb:#f8595f;
 }
 body{
     /*background: peru;*/
@@ -23,5 +24,26 @@ body{
 .text_next{
     font-size: 1.4rem;
     font-weight: bold;
+}
+.item_link{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.item_icon{
+    font-size: 4rem;
+}
+.item_title{
+    font-size: 1.2rem;
+}
 
+.bg-airbnb{
+    background: var(--color-airbnb);
+}
+.bg-green{
+    background: var(--color-green);
 }

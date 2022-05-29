@@ -1,0 +1,22 @@
+{
+  "name": "web_airbnb",
+  "version": "1.0.0",
+  "description": "browser-sync start --server --files \"/*.html,js/*.js,css/*.css\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "browser-sync start --server --files=\"**/*\"\n",
+    "files": "browser-sync start --server --files=files: [\"app/css/style.css\", \"app/js/*.js\"]\n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grekodev/web_airbn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grekodev/web_airbn/issues"
+  },
+  "homepage": "https://github.com/grekodev/web_airbn#readme"
+}
