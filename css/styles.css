@@ -9,13 +9,18 @@ body{
     margin: 0 auto;
 }
 .img_airbnb{
-    width: 60%;
+    width: 50%;
 }
 .title_main{
     color: var(--color-green);
     text-decoration: underline;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 .text_presentacion{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+}
+
+.text_next{
+    font-size: 1.4rem;
+    font-weight: normal;
 }
