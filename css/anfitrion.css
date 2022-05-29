@@ -1,0 +1,30 @@
+:root {
+    --color-green:#00a453;
+    --color-airbnb:#f8595f;
+}
+.title_main{
+    text-align: center;
+    margin: 0;
+    background: var(--color-green);
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.container_icon{
+    text-align: center;
+}
+.item_icon{
+    font-size: 3rem;
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    background: var(--color-airbnb);
+    margin: 1rem;
+}
+.about_us{
+    text-align: center;
+    /*font-weight: lighter;*/
+}
